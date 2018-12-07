@@ -1,0 +1,62 @@
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown(1000);
+    });
+    $("#stop").click(function(){
+        $("#panel").stop();
+    });
+});
+
+$(document).ready(function(){
+    $(".flip").click(function(){
+        $(".panel").slideDown(1000);
+    });
+    $("#stop").click(function(){
+        $(".panel").stop();
+    });
+});
+
+$(document).ready(function(){
+    $(".bleach").click(function(){
+        $(".bleach1").slideDown(1000);
+    });
+    $("#stop").click(function(){
+        $(".bleach1").stop();
+    });
+});
+
+$(document).ready(function(){
+    $(".saitama").click(function(){
+        $(".saitama1").slideDown(1000);
+    });
+    $("#stop").click(function(){
+        $(".saitama1").stop();
+    });
+});
+
+$(document).ready(function(){
+    $(".ballz").click(function(){
+        $(".ballz1").slideDown(1000);
+    });
+    $("#stop").click(function(){
+        $(".ballz1").stop();
+    });
+});
+
+$(document).ready(function(){
+    $(".conan").click(function(){
+        $(".conan1").slideDown(1000);
+    });
+    $("#stop").click(function(){
+        $(".conan1").stop();
+    });
+});
+
+$(document).ready(function(){
+    $(".alchemist").click(function(){
+        $(".alchemist1").slideDown(1000);
+    });
+    $("#stop").click(function(){
+        $(".alchemist1").stop();
+    });
+});
